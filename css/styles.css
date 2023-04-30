@@ -1,3 +1,15 @@
+/* Стандартна блокова модель в сучасних проектах - це border-box. 
+Для того щоб не ставити властивість box-sizing кожному елементу окремо, на самому початку файлу стилів використовується наступний CSS-код. */
+
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
@@ -6,7 +18,18 @@ body {
 :root {
   --accept-color: #434455;
 }
-p {
+
+.container {
+  width: 1158px;
+  background-color: crimson;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-section{
+  padding-left: 156px;
+  padding-right: 156px;
+}
+.container-header p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -256,4 +279,11 @@ Portfolio */
   letter-spacing: 0.02em;
   color: #434455;
   line-height: 1.5;
+}
+.btn-portfolio-list{
+  display: flex;
+}
+.portfolio-card-list{
+  display: flex;
+  flex-wrap: wrap;
 }
