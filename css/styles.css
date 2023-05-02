@@ -28,34 +28,21 @@ img {
   margin-right: auto;
   display: flex;
 } */
-.container-basic {
+/* .container-basic {
   width: 1440px;
-  /* background-color: hotpink; */
+  /* background-color: hotpink;
   margin: 0 auto
-}
+} */
 .container {
   margin: 0 auto;
-/*   display: flex; */
   padding-left: 15px;
   padding-right: 15px;
-  /*  width: 1440px; */
- /*  background-color: crimson; */
-  /*  margin-left: auto;
-  margin-right: auto; */
   width: 1158px;
   margin: 0 auto;
 }
-/* .header{
-  display: flex; 
-} */
-.container-header{  display: flex;
-  margin: 0}
-/* .container-header {
-  display: flex;
-    width: 1440px; 
-   height: 72px; 
-  padding: 24px 156px 24px 156px; 
-}  */
+.container-header{ 
+   display: flex;
+}
 .container-header .container-header p {
   font-family: "Roboto";
   font-style: normal;
@@ -458,6 +445,7 @@ img {
 .portfolio-card-item-conteiner{
   padding: 32px 16px;
   border: 1px solid #e7e9fc; /* для визначення стилю обводки по периметру контейнера */
+  border-top: none; 
   
 }
 .portfolio-title{
