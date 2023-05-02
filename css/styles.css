@@ -31,6 +31,7 @@ img {
 .container-basic {
   width: 1440px;
   /* background-color: hotpink; */
+  margin: 0 auto
 }
 .container {
   margin: 0 auto;
@@ -456,8 +457,10 @@ img {
 }
 .portfolio-card-item-conteiner{
   padding: 32px 16px;
+  border: 1px solid #e7e9fc; /* для визначення стилю обводки по периметру контейнера */
   
 }
 .portfolio-title{
   margin: 0;
+  margin-bottom: 8px /* для визначення відступу між заголовком та параграфом */
 }
