@@ -47,7 +47,8 @@ img {
 /* .header{
   display: flex; 
 } */
-.container-header{  display: flex;}
+.container-header{  display: flex;
+  margin: 0}
 /* .container-header {
   display: flex;
     width: 1440px; 
@@ -331,9 +332,9 @@ img {
   border-radius: 0px 0px 4px 4px; /* для визначення заокруглень внизу блока
    (можна використовувати border-top-left-radius: 0px; border-top-right-radius: 0px ; border-top-right-radius: 4px; border-bottom-left-radius:4px;) */
 }
-.our-team-img{
+/* .our-team-img{
   padding-bottom: 32px;
-}
+} */
 .our-team-info{
   text-align: center;
   padding: 32px 16px;/*  для визначення відступів від краю контейнера
@@ -342,6 +343,8 @@ img {
 .team-subtitle{
   text-align: center;
   margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
 }
 .card-descr {
   margin: 0;
@@ -361,7 +364,6 @@ img {
 }
   
 .container-footer{
-  display: inline-block; 
   margin-bottom: 16px;/*  для визначення відступу між посиланням та параграфом */
   width: 264px;
   padding: 0;
@@ -369,6 +371,8 @@ img {
 }
 .logo-footer{
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 } 
 
  /* Portfolio */
@@ -410,7 +414,7 @@ img {
 .btn-portfolio:focus {
   color: #ffffff;
   background-color: #404bbf;
-  border: 1px solid;
+  border: 1px solid transparent; /* для вимкнення кольору при ховері */
 }
 
 .list {
